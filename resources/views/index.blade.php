@@ -49,7 +49,7 @@
         <!-- Main Navigation -->
         <nav class="main-nav" id="main-nav">
             <div class="content-wrapper-sm">
-                <a href="/" class="navbar-brand">TerraMar</a>
+                <a href="/" class="navbar-brand"><img width="130" src="{{url('/img/LOGO.png')}}" alt=""></a>
                 <div id="menu-button">
                     <div class="bar1"></div>
                     <div class="bar2"></div>
