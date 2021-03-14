@@ -42,6 +42,51 @@
     </nav>
 
 
+<<<<<<< HEAD
+=======
+                .animated {
+                    visibility: visible;
+                }
+            }
+        </style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+        <link href="{{ asset('css/main.css') }}" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <!-- partial:index.partial.html -->
+        <!-- Main Navigation -->
+        <nav class="main-nav" id="main-nav">
+            <div class="content-wrapper-sm">
+                <a href="/" class="navbar-brand"><img width="130" src="{{url('/img/LOGO.png')}}" alt=""></a>
+                <div id="menu-button">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#reserve">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Main header -->
+        <header>
+            <!-- First replaceble image -->
+            <img class="img-absolute" src="{{url('/img/carrier.jpg')}}" alt="City 1">
+            <div class="wrapper astonish animated fadeInDown">
+                <h1><strong>Terra</strong>Mar</h1>
+                <h2>A Modern SupplyChain Service Dedicated to the Empowerment <br> of the Modern Independent Business
+                    Nations
+                    and Their People</h2>
+            </div>
+        </header>
+>>>>>>> master
 
     <!-- Main header -->
     <header>
